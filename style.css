@@ -1,0 +1,520 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#shadow {
+  opacity: 0.6;
+  height: 452px;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #333;
+  z-index: 0;
+}
+
+#content {
+  padding-top: 26px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  padding-right: 0px;
+}
+
+#code {
+  background-color: #eaeaea;
+  line-height: 1.5;
+}
+
+#code h1 {
+  padding: 80px 0px 0px;
+  font-size: 35.2px;
+  font-weight: bold;
+}
+
+#code p {
+  max-width: 850px;
+  padding: 15px;
+  padding-bottom: 18px;
+}
+
+#code a {
+  display: inline-block;
+  margin: 0.5em 0;
+  background-color: #333333;
+  padding: 17.5px 35px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #666 !important;
+  font-size: 17.6px;
+  line-height: 1.5;
+}
+
+#code a:hover {
+  cursor: pointer;
+  background-color: #eaeaea;
+  color: #000;
+}
+
+.div_img {
+  background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-size: cover;
+  height: 452px;
+  position: relative;
+}
+
+#web_text {
+  color: #333333;
+  display: grid;
+  grid-column: 2/4;
+}
+
+#web_text h2 {
+  line-height: 1.5;
+  font-size: 26.4px;
+  font-weight: 700;
+  padding: 15.5px;
+  padding-top: 25px;
+}
+
+.container {
+  width: 65%;
+  height: 224px;
+}
+
+.web_wrapper {
+  background-color: #eaeaea;
+}
+
+.paragraph {
+  text-align: center;
+  columns: 2;
+  column-gap: 2em;
+  padding: 3px 13px;
+  margin-top: -42px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  height: 572.5px;
+  width: 100%;
+  background-color: #333333;
+  padding: 39.52px 0px;
+  padding-top: 37px;
+  margin: 0;
+}
+
+.card {
+  display: block;
+  width: 273px;
+  height: 499px;
+  border: none;
+  font-size: 17.6px;
+  line-height: 1.5;
+}
+
+.card-body {
+  height: 320px;
+  padding-top: 15.5px;
+}
+
+#cards h4 {
+  font-weight: 700;
+  padding: 30.5px 12px;
+  font-size: 20.592px;
+  line-height: 1.5;
+  padding-left: 11px;
+}
+
+#cards p {
+  font-size: 17.6px;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section {
+  margin: auto;
+  padding: 26.4px 0px;
+  max-width: 850px;
+  height: 241px;
+}
+
+.section h3 {
+  font-size: 26.4px;
+  font-weight: 700;
+  padding-right: 1.5px;
+  padding-top: 36px;
+  padding-left: 1px;
+  line-height: 1.5;
+}
+
+.section .text_1 {
+  padding-top: 35px;
+}
+
+.contact {
+  padding: 35.2px;
+  padding-bottom: 20px;
+  background-color: #2690d4;
+}
+
+.contact h3 {
+  padding-top: 26px;
+  font-size: 26.4px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.contact_2 {
+  padding: 35.2px;
+  padding-bottom: 0;
+  background-color: #333333;
+}
+
+.about_company {
+  padding-top: 10px;
+  color: #ffffff;
+  max-width: 100%;
+  margin-left: unset !important;
+  margin-right: unset !important;
+}
+
+.about_company h2 {
+  font-size: 26.4px;
+  font-weight: 700;
+  padding-right: 1.5px;
+  padding-top: 26px;
+  padding-left: 1px;
+  line-height: 1.5;
+}
+
+.about_company p {
+  display: block;
+  max-width: 100%;
+  padding-top: 35px;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+}
+
+footer {
+  color: #fff;
+  background-color: #000000;
+  padding: 35.2px;
+  font-size: 22px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 17.6px;
+  line-height: 1.5;
+  padding-left: 11px;
+}
+
+footer a {
+  color: #2690d4;
+}
+
+.site {
+  padding-right: 24px;
+}
+
+p.email {
+  padding-top: 20px;
+  padding-bottom: 31px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #code .text-center {
+    max-width: 800px;
+  }
+
+  #code h1 {
+    max-width: 800px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .text-center {
+    width: 100%;
+    height: auto;
+  }
+
+  #web_text {
+    padding-bottom: 55px;
+  }
+
+  #web_text h2 {
+    padding-bottom: unset !important;
+  }
+
+  .paragraph {
+    margin-top: unset !important;
+    columns: 2 !important;
+    column-gap: 30px;
+    display: block;
+    padding: unset !important;
+    word-spacing: 0.3px;
+    line-height: 1.5;
+  }
+
+  .card-body {
+    height: 100%;
+    padding: 20px !important;
+  }
+
+  #cards {
+    padding-left: unset !important;
+    padding-bottom: 30px !important;
+  }
+
+  .card {
+    width: 29vw !important;
+    height: 500px !important;
+  }
+
+  #cards p {
+    font-size: 1.1rem;
+  }
+
+  #cards h4 {
+    font-size: 1.2rem;
+    padding: 10px !important;
+  }
+
+  .paragraf {
+    columns: unset;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px !important;
+  }
+
+  .section {
+    height: auto;
+  }
+
+  .contact,
+  .contact_2 {
+    text-align: center;
+    padding: 15px !important;
+  }
+
+  .contact p,
+  .contact_2 p {
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: 90%;
+    padding-left: 23px;
+  }
+
+  .contact h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  p.email {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  footer {
+    columns: 2;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #code h1 {
+    max-width: 380px;
+    padding-left: 35px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 75px;
+  }
+
+  #code .text-center {
+    max-width: 390px;
+  }
+
+  .text-center {
+    width: 100%;
+    height: auto;
+  }
+
+  #code a {
+    font-size: 18px;
+  }
+
+  #code p {
+    padding: 15px;
+  }
+  #web_text {
+    padding-bottom: unset !important;
+  }
+  .paragraph {
+    columns: unset !important;
+    column-gap: unset !important;
+  }
+  #paragraf {
+    padding: 35px 15px;
+  }
+  .paragraf {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    padding: 140px !important;
+    columns: 1 !important;
+    margin-top: 30px !important;
+    height: 236px !important;
+  }
+
+  .card-body {
+    padding: unset !important;
+    height: auto;
+  }
+
+  .card {
+    width: 100% !important;
+    height: 490px !important;
+    margin-bottom: 10px;
+  }
+
+  #cards {
+    height: auto;
+    padding-top: 25px !important;
+  }
+
+  #cards .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .col-4:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .row {
+    --bs-gutter-x: 1rem;
+  }
+
+  .row .col-4 {
+    width: 250px !important;
+  }
+
+  .card .title {
+    font-size: 1rem;
+  }
+
+  #cards p {
+    font-size: 17.6px !important;
+    max-width: 93%;
+    padding-top: 9px;
+    line-height: 1.5;
+  }
+
+  #cards h4 {
+    font-size: 1.3rem;
+    padding: 30px !important;
+    padding-top: 37px !important;
+    padding-left: 31.5px !important;
+  }
+
+  .paragraf {
+    columns: unset;
+    text-align: center;
+    padding: 15px !important;
+  }
+
+  .section {
+    height: auto;
+    max-width: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px 0px;
+    padding-bottom: 10px !important;
+  }
+
+  .section h3 {
+    padding: 35px 35px 15px 35px;
+  }
+
+  .section .text_1 {
+    padding: 20px 35px;
+  }
+
+  .contact,
+  .contact_2 {
+    width: 100%;
+    text-align: center;
+    padding: 8px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .contact p,
+  .contact_2 p {
+    font-size: 1.1rem;
+    max-width: 365px;
+
+    padding-left: 20px;
+  }
+
+  .contact_2 p {
+    max-width: 370px !important;
+    padding-left: 30px;
+  }
+
+  .contact h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+  }
+
+  p.email {
+    font-size: 1.1rem;
+    padding-top: 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    width: 100%;
+    line-height: 0.5;
+  }
+  .about_company p {
+    padding-top: 40px;
+  }
+  .about_company h2 {
+    padding-top: 45px;
+  }
+
+  .site {
+    padding-right: unset !important;
+  }
+}
